@@ -185,10 +185,70 @@
 
 ///// F. Biggie Smalls
 /// 1- console.log()s "little number" if the number is entered is less than 100
-let num = 20;
-if (num <50) {
-    console.log("little number");
-} // console.log()s  big number if the number is greater than or equal to 100.
- else {
-    console.log("big number");
-}
+// let num = 20;
+// if (num <50) {
+//     console.log("little number");
+// } // console.log()s  big number if the number is greater than or equal to 100.
+//  else {
+//     console.log("big number");
+// }
+
+////// G. Monkey in the Middle
+// console.log() little number if the number entered is less than 5.
+// If the number entered is more than 10, log  big number.
+// Otherwise, log "monkey".
+// let number = 7;
+// if (number < 5) {
+//     console.log("little number");
+// } else if (number> 10) {
+//     console.log("big number");
+// } else {
+//     console.log("monkey");
+// }
+
+////// H. What's in Your Closet?
+// const kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     "right sock",
+//     "Per Scholas hoodie",
+//     "green pants",
+//     "yellow knit hat",
+//     "marshmallow peeps"
+// ];
+// const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//     ],[
+//       // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//     ],[
+//       // Thom's accessories
+// "wool mittens",
+// "wool scarf",
+//     "raybans"
+//     ]
+// ];
+// /// 1- What's Kristyn wearing today?
+// console.log("Kristyn is rocking that" + kristynsCloset[4] + " today!");
+// /// 2- Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
+// kristynsCloset.splice(6, 0, "raybans");
+// /// 3- Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead of yellow.
+// kristynsCloset[5] = "stained knit hat";
+// /// 4- Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirtsarray.
+// const thomsOutfit = [thomsCloset[0][0], thomsCloset[1][1],thomsCloset[2][1]];
+// /// 5- In the same way, access one item from Thom's pants array.
+// const thomsPants =  thomsCloset[1][1];
+// /// 6- Access one item from Thom's accessories array.
+// const thomsAccessories =  thomsCloset[2][2];
+// // Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+// console.log("Thom is looking fierce in a grey button-up, jeans and wool scarf!");
+// // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
+// thomsCloset[1][2] = "Footie Pajamas";
+// console.log(thomsCloset);
