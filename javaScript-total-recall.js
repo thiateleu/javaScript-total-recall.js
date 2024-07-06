@@ -98,19 +98,97 @@
 /////////////// C-Give me Five
 // For the number 0 -100, print out "I found a number. High five!" if the number is a multiple of five
 // For the number 0 -100, print out "I found a number. High five!" if the number is a multiple of five
-for (let i= 0; i <=100; i++) {
-    if (i%5 === 0) {
-            console.log(i + 'I found a number. High five!');
-    } else {
-            console.log(i);
-    }
-}
+// for (let i= 0; i <=100; i++) {
+//     if (i%5 === 0) {
+//             console.log(i + 'I found a number. High five!');
+//     } else {
+//             console.log(i);
+//     }
+// }
 
-for (let i= 0; i <=100; i++) {
-    if (i%3 === 0) {
-            console.log(i + 'I found a number. Three is a crowd');
-    } else {
-            console.log(i);
-    }
-}
+// for (let i= 0; i <=100; i++) {
+//     if (i%3 === 0) {
+//             console.log(i + 'I found a number. Three is a crowd');
+//     } else {
+//             console.log(i);
+//     }
+// }
 
+
+/////////// D. Savings account
+///Write code that will save the sum of all the numbers between 1 - 10 to a variable called  bank_account.
+// let bank_account = 0;
+// for (let i = 1; i <= 10; i++) {
+//     bank_account += i;
+// }
+//     console.log(bank_account);
+
+//// Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+
+// let bank_account = 0;
+// for (let i = 1; i <= 100; i++) {
+//     bank_account += i*2;
+// }
+//     console.log(bank_account);
+
+///////////////// 3-III. Arrays & Control flow //////////////////////
+/////  A. Talk about it:
+/// 1- What are the things in an array called? 
+//Element
+/// 2- Do Arrays guarantee those things will be in order?
+//Yes 
+/// 3-  What real-life thing could you model with an array?
+//shopping list
+
+///// B. Easy Does It
+////Create an array that contains three quotes and store it in a variable called quotes
+// let quotes = ["Khadija","Mary", "Danielle"];
+// console.log(quotes);
+
+/////  C. Accessing elements
+// const randomThings = [1, 10, "Hello", true]
+// //// 1- How do you access the 1st element in the array?
+// console.log(randomThings[0]);
+// //// 2 Change the value of "Hello" to "World"
+// randomThings[2] = "world";
+// //// 3 Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+// console.log(randomThings);
+
+//// D. Change values
+// const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+// /// 1- What would you write to access the 3rd element of the array?
+// console.log(ourClass[3]);
+// /// 2- Change the value of "Github" to "Octocat"
+// ourClass[4] = "Octocat";
+// console.log(ourClass);
+// //// 3- Add a new element, "Cloud City" to the array
+// ourClass.push("Cloud City");
+// console.log(ourClass);
+
+//// E. Mix It Up
+// const myArray = [5, 10, 500, 20];
+// /// 1- Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
+// myArray.push("Aegon", "star");
+// console.log(myArray);
+// /// 2- Remove the 5from the beginning of the array.
+// myArray.shift();
+// console.log(myArray);
+// /// 3-  Add the string "Bob Marley"to the beginning of the array.
+// myArray.unshift("Bob Marley");
+// console.log(myArray);
+// /// 4- Remove the string of your choice from the end of the array.
+// myArray.pop();
+// console.log(myArray);
+// /// 5- Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+// myArray.reverse();
+// console.log(myArray);
+
+///// F. Biggie Smalls
+/// 1- console.log()s "little number" if the number is entered is less than 100
+let num = 20;
+if (num <50) {
+    console.log("little number");
+} // console.log()s  big number if the number is greater than or equal to 100.
+ else {
+    console.log("big number");
+}
